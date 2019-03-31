@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class NumbersTriangleMarceloMariduena {
   public static void main(String[] args) { 
@@ -10,10 +9,6 @@ public class NumbersTriangleMarceloMariduena {
     
     showTriangle(n, n);
     input.close();
-  }
-  
-  public static void showTriangle(int n) {
-    showTriangle(n, n);
   }
   
   public static void showTriangle(int n, int k) {
